@@ -1,0 +1,126 @@
+/* Body Style */
+h1 {
+	text-align: center;
+	font-family: "Trebuchet MS", Sans-Serif;
+}
+
+p {
+	text-align: center;
+	font-family: "Trebuchet MS", Sans-Serif;
+	font-size: 24px;
+}
+
+h4 {
+	text-align:center;
+	font-family: "Trebuchet MS", Sans-Serif;
+}
+
+.strike {
+	font-family: "Trebuchet MS", Sans-Serif;
+	font-size: 14px;
+}
+
+div {
+	margin-left:25%;
+	padding:1px 16px;
+	height:1000px;
+}
+
+.Disclamer {
+	font-size: 12px;
+}
+
+#Mine {
+  border: 2px solid red;
+  border-radius: 12px;
+}
+
+#Soviet {
+	border: 4px dotted #9522ca;
+	border-radius: 18px;
+}
+
+#Advertisement {
+	font-size: 23px;
+	font-family: "Trebuchet MS", Sans-Serif;
+}
+
+.CenteredTop {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	position: relative;
+}
+
+/*
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+*/
+/*
+.container {
+	margin-left:45%;
+	padding:1px 16px;
+	height:1000px;
+	position: absolute;
+  text-align: center;
+  color: rgb(105, 16, 16);
+}
+*/
+
+/* Store Page */
+table {
+	table-layout: test;
+}
+
+
+
+
+
+
+
+/* Navagation Bar */
+ul {
+  list-style-type: none;
+	border: 4px solid rgba(0, 0, 0, 0.63);
+  margin: 0;
+  padding: 0;
+  width: 16%;
+  background-color: #ffffffa6;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+	display: block;
+}
+
+ li a {
+  display: block;
+  color: rgb(0, 0, 0);
+	font-family: Microbrew;
+  padding: 8px 16px;
+  text-decoration: none;
+	font-size: 20px;
+}
+
+ li a.active {
+  background-color: #4CAF50;
+  color: white;
+	padding: 8px 16px;
+}
+
+ li a:hover:not(.active) {
+  background-color: rgba(24, 21, 21, 0.815);
+  color: rgb(255, 255, 255);
+	font-family: sans-serif;
+	padding: 8px 16px;
+	font-size: 27px;
+}
+
+a:visited {
+	color: #ff1e00;
+	font-size:20px;
+	text-decoration: line-through;
+}
